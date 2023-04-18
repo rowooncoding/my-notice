@@ -10,9 +10,10 @@ export default async function List() {
       {result.map((a, i) => {
         return (
           <div className="list-item" key={i}>
-            <h4>{result[i].title}</h4>
             {/* 문자와 자료형을 합칠때는 +를 사용하자!!! */}
-            <Link href={"/detail/" + result[i]._id}>링크</Link>
+            <Link href={"/detail/" + result[i]._id}>
+              <h4>{result[i].title}</h4>
+            </Link>
             <p>1월 1일</p>
           </div>
         );
