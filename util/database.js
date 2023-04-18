@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 const url =
-  "mongodb+srv://zoda05:qhdsk367@rowoon.vfl045x.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://zoda05:qhdks367@rowoon.vfl045x.mongodb.net/?retryWrites=true&w=majority";
 const options = { useNewUrlParser: true };
 let connectDB;
 
