@@ -1,5 +1,6 @@
 import { connectDB } from "@/util/database";
 import Link from "next/link";
+import DetailLink from "./DetailLink";
 
 export default async function List() {
   const db = (await connectDB).db("forum");
@@ -10,9 +11,10 @@ export default async function List() {
         return (
           <div className="list-item" key={i}>
             {/* 문자와 자료형을 합칠때는 +를 사용하자!!! */}
-            <Link href={"/detail/" + result[i]._id}>
+            <Link prefetch={false} href={"/detail/" + result[i]._id}>
               <h4>{result[i].title}</h4>
             </Link>
+            <DetailLink />
             <p>1월 1일</p>
           </div>
         );
