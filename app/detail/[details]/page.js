@@ -1,4 +1,8 @@
-export default function Detail() {
+import { connectDB } from "@/util/database";
+
+export default async function Detail() {
+  const db = (await connectDB).db("forum");
+  let result = await db.collection("post").find().toArray();
   return (
     <div>
       <h4>상세페이지</h4>
