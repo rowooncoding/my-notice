@@ -1,6 +1,6 @@
 # 게시판 만들기
 ## TIL
-<li><a href="">23.04.18</a></li>
+<li><a href="https://github.com/rowooncoding/my-notice/wiki/23.04.18">23.04.18</a></li>
 <li><a href="">23.04.19</a></li>
 
 ## 학습 목표
