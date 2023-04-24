@@ -23,5 +23,7 @@
 - [ ]  스태틱, 다이나믹 랜더링, 캐쉬
 
 ## 기능
-몽고db에서 꺼내온 데이터 랜더링 및 라우팅 연결
+### 몽고db에서 꺼내온 데이터 랜더링 및 라우팅 연결
 ![next 라우터](https://user-images.githubusercontent.com/114975279/232765673-72983942-00d5-460e-ab92-19642733309f.gif)
+### post 기능
+![게시글 post 기능](https://user-images.githubusercontent.com/114975279/233938244-93a47e25-bad4-4ba2-9641-618c77a199ab.gif)
