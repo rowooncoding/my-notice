@@ -16,15 +16,9 @@ export default function ListItem({ result }) {
             <span
               onClick={() => {
                 fetch("/api/post/delete", {
-                  method: "DELETE",
+                  method: "POST",
                   body: result[i]._id,
-                })
-                  .then((r) => {
-                    return r.json();
-                  })
-                  .then((r) => {
-                    console.log(r);
-                  });
+                });
               }}
             >
               🗑️
