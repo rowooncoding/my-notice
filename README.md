@@ -8,6 +8,8 @@
 ## TIL
 <li><a href="https://github.com/rowooncoding/my-notice/wiki/23.04.18">23.04.18</a></li>
 <li><a href="https://github.com/rowooncoding/my-notice/wiki/23-04-19">23.04.19</a></li>
+<li><a href="https://github.com/rowooncoding/my-notice/wiki/23.04.23">23.04.23</a><li>
+<li><a href="">23.04.25</a><li>
 
 ## 학습 목표
 
