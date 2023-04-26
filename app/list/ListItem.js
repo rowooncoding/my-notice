@@ -13,7 +13,15 @@ export default function ListItem({ result }) {
               <h4>{result[i].title}</h4>
             </Link>
             <Link href={"/edit/" + result[i]._id}>📝</Link>
-            <span>🗑️</span>
+            <span
+              onClick={() => {
+                fetch("/api/delete", {
+                  method: "DELETE",
+                });
+              }}
+            >
+              🗑️
+            </span>
             <p>1월 1일</p>
           </div>
         );
