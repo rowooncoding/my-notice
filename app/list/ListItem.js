@@ -15,7 +15,7 @@ export default function ListItem({ result }) {
             <Link href={"/edit/" + result[i]._id}>📝</Link>
             <span
               onClick={() => {
-                fetch("/api/delete", {
+                fetch("/api/post/delete", {
                   method: "DELETE",
                   body: result[i]._id,
                 });
