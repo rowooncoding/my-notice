@@ -8,17 +8,23 @@ export default function ListItem({ result }) {
       {result.map((a, i) => {
         return (
           <div className="list-item" key={i}>
-            {/* 문자와 자료형을 합칠때는 +를 사용하자!!! */}
             <Link prefetch={false} href={"/detail/" + result[i]._id}>
               <h4>{result[i].title}</h4>
             </Link>
             <Link href={"/edit/" + result[i]._id}>📝</Link>
             <span
-              onClick={() => {
+              onClick={(e) => {
                 fetch("/api/post/delete", {
                   method: "POST",
                   body: result[i]._id,
-                });
+                })
+                  .then((r) => r.json())
+                  .then(() => {
+                    e.target.parentElement.style.opacity = 0;
+                    setTimeout(() => {
+                      e.target.parentElement.style.display = "none";
+                    }, 1000);
+                  });
               }}
             >
               🗑️
