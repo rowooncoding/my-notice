@@ -6,9 +6,7 @@ export default async function Edit(props) {
   let result = await db
     .collection("post")
     .findOne({ _id: new ObjectId(props.params.id) });
-  await db
-    .collection("post")
-    .updateOne({ 수정할게시물정보 }, { $set: { 수정할내용 } });
+  await db.collection("post").updateOne({}, { $set: {} });
   return (
     <div className="p-20">
       <h4>수정페이지</h4>
