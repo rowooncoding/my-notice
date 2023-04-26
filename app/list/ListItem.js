@@ -18,7 +18,13 @@ export default function ListItem({ result }) {
                 fetch("/api/post/delete", {
                   method: "DELETE",
                   body: result[i]._id,
-                });
+                })
+                  .then((r) => {
+                    return r.json();
+                  })
+                  .then((r) => {
+                    console.log(r);
+                  });
               }}
             >
               🗑️
