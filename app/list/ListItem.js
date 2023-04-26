@@ -17,6 +17,7 @@ export default function ListItem({ result }) {
               onClick={() => {
                 fetch("/api/delete", {
                   method: "DELETE",
+                  body: result[i]._id,
                 });
               }}
             >
