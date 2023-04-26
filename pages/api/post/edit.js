@@ -8,6 +8,6 @@ export default async function handler(req, res) {
     let result = await db
       .collection("post")
       .updateOne({ _id: new ObjectId(req.body._id) }, { $set: put });
-    res.status(200).redirect("/list");
+    res.status(302).redirect("/list");
   }
 }
