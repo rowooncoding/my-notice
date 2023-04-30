@@ -21,7 +21,7 @@
 - [x]  글 작성기능
 - [x]  수정기능
 - [x]  삭제기능
-- [ ]  회원기능
+- [x]  회원기능
 - [ ]  스태틱, 다이나믹 랜더링, 캐쉬
 
 ## 기능
@@ -33,4 +33,11 @@
 ![움짤](https://user-images.githubusercontent.com/114975279/235338387-319b09d3-2a88-4207-8f54-90127ea4f9e1.gif)
 ### 회원가입 기능
 ![Apr-30-2023 19-07-36](https://user-images.githubusercontent.com/114975279/235347460-b405cf06-2c93-4b83-b429-9c8485aea446.gif)
+### 로그인/아웃 기능
+![로그인:아웃](https://user-images.githubusercontent.com/114975279/235347544-6b4ad292-c5c2-422b-be98-be8f811afdfb.gif)
+
+
+
+
+
 
