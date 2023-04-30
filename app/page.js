@@ -5,5 +5,6 @@ export default async function Home() {
   const db = (await connectDB).db("forum");
   //포스트에 있는 모든 데이터를 가져와서 array로 변환해주세요
   await db.collection("post").find().toArray();
-  return <div></div>;
+  return <div>메인페이지임</div>;
 }
+ 
