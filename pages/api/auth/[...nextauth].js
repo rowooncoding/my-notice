@@ -8,6 +8,6 @@ export const authOptions = {
       clientSecret: "8d458bd2e97dd6826e870aead5f1995b24957a50",
     }),
   ],
-  secret: "jwt생성시쓰는암호",
+  secret: "qhdks811",
 };
 export default NextAuth(authOptions);
