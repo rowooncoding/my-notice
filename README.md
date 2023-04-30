@@ -31,3 +31,6 @@
 ![게시글 post 기능](https://user-images.githubusercontent.com/114975279/233938244-93a47e25-bad4-4ba2-9641-618c77a199ab.gif)
 ### 글 삭제 등록
 ![움짤](https://user-images.githubusercontent.com/114975279/235338387-319b09d3-2a88-4207-8f54-90127ea4f9e1.gif)
+### 회원가입 기능
+![Apr-30-2023 19-07-36](https://user-images.githubusercontent.com/114975279/235347460-b405cf06-2c93-4b83-b429-9c8485aea446.gif)
+
