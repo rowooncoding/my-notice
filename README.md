@@ -8,8 +8,8 @@
 ## TIL
 <li><a href="https://github.com/rowooncoding/my-notice/wiki/23.04.18">23.04.18</a></li>
 <li><a href="https://github.com/rowooncoding/my-notice/wiki/23-04-19">23.04.19</a></li>
-<li><a href="https://github.com/rowooncoding/my-notice/wiki/23.04.23">23.04.23</a><li>
-<li><a href="">23.04.25</a><li>
+<li><a href="https://github.com/rowooncoding/my-notice/wiki/23.04.23">23.04.23</a></li>
+<li><a href="https://github.com/rowooncoding/my-notice/wiki/23.04.26">23.04.26</a></li>
 
 ## 학습 목표
 
@@ -18,9 +18,9 @@
 - [x]  몽고디비 사용
 - [x]  글목록 조회기능 (db데이터 출력)
 - [x]  상세페이지 만들기(다이나믹 라우트)
-- [ ]  글 작성기능
-- [ ]  수정기능
-- [ ]  삭제기능
+- [x]  글 작성기능
+- [x]  수정기능
+- [x]  삭제기능
 - [ ]  회원기능
 - [ ]  스태틱, 다이나믹 랜더링, 캐쉬
 
