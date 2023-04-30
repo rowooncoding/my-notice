@@ -10,6 +10,7 @@
 <li><a href="https://github.com/rowooncoding/my-notice/wiki/23-04-19">23.04.19</a></li>
 <li><a href="https://github.com/rowooncoding/my-notice/wiki/23.04.23">23.04.23</a></li>
 <li><a href="https://github.com/rowooncoding/my-notice/wiki/23.04.26">23.04.26</a></li>
+<li><a href="https://github.com/rowooncoding/my-notice/wiki/23.04.30">23.04.30</a></li>
 
 ## 학습 목표
 
