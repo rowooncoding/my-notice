@@ -29,3 +29,5 @@
 ![next 라우터](https://user-images.githubusercontent.com/114975279/232765673-72983942-00d5-460e-ab92-19642733309f.gif)
 ### post 기능
 ![게시글 post 기능](https://user-images.githubusercontent.com/114975279/233938244-93a47e25-bad4-4ba2-9641-618c77a199ab.gif)
+### 글 삭제 등록
+![움짤](https://user-images.githubusercontent.com/114975279/235338387-319b09d3-2a88-4207-8f54-90127ea4f9e1.gif)
