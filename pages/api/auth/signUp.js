@@ -7,5 +7,6 @@ export default async function handler(요청, 응답) {
     요청.body.password = hash;
     let db = (await connectDB).db("forum");
     await db.collection("user_cred").insertOne(요청.body);
+    응답.status(200).json("가입");
   }
 }
