@@ -1,9 +1,16 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Comment(props) {
   let [comment, setComment] = useState("");
+  useEffect(() => {
+    fetch("/api/comment/list?id=" + props._id)
+      .then((r) => r.json())
+      .then((result) => {
+        console.log(result);
+      });
+  }, []);
 
   return (
     <div>
